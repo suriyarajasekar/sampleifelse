@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./aaa.component.scss']
 })
 export class AaaComponent {
+  ngOnInit()
+
+  {
+    alert("check")
+  }
 
 }
